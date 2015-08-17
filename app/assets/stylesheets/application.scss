@@ -2,15 +2,6 @@
  *= require_self
  */
 
-body {
-	font-family: "Proxima Nova";
-	font-weight: 100;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 100;
-}
-
 #notice_wrapper {
     position: absolute;
     top: 0;
@@ -27,6 +18,16 @@ h1, h2, h3, h4, h5, h6 {
         letter-spacing: 1px;
     }
 }
+
+body {
+	font-family: "Proxima Nova";
+	font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 100;
+}
+
 
 .wrapper {
 	width: 80%;
