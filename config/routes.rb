@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/:id', to: 'users#show'
+
   devise_for :users
   resources :posts do
     member do
