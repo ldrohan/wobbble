@@ -1,16 +1,7 @@
-- if user_signed_in?
-	%p#intro
-		Hello
-		= current_user.name
-		%br/
-		%span
-			Share your inspiration and see what inspires others
-- else
-	%p#intro
-		What makes you Wobbble?
-		%br/
-		%span
-			Share your inspiration and see what inspires others			
+ 
+%h1 This is What Inspires #{@user.name}
+%h2 #{@user.name} has #{@user.posts.count} posts
+
 #posts
 	- @posts.each do |post|
 		.post
@@ -22,7 +13,7 @@
 					.data.clearfix
 						%p.username
 							Shared by
-							= link_to post.user.name, profile_path(post.user.id)
+							= post.user.name
 						%p.buttons
 							%span
 								%i.fa.fa-comments-o
@@ -30,3 +21,4 @@
 							%span
 								%i.fa.fa-thumbs-o-up
 								= post.get_likes.size
+

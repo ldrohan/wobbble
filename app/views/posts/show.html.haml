@@ -34,7 +34,7 @@
 					.data.clearfix
 						%p.username
 							Shared by
-							= link_to @random_post.user.name, user_path(@random_post.user.id)
+							= link_to @random_post.user.name, profile_path(@random_post.user.id)
 						%p.buttons
 							%span
 								%i.fa.fa-comments-o

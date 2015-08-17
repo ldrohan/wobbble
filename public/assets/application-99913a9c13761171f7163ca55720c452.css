@@ -1,0 +1,338 @@
+/*
+
+ */
+/* line 6, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+body {
+  font-family: "Proxima Nova";
+  font-weight: 100;
+}
+
+/* line 11, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+/* line 15, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 20, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 25, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 29, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+.button {
+  border: 1px solid #9B9B9B;
+  padding: .7rem 1.25rem;
+  border-radius: .3rem;
+  outline: none;
+  background: white;
+  color: #9B9B9B;
+}
+
+/* line 38, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+header {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 1px solid #E4E4E4;
+}
+/* line 42, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+header #logo {
+  float: left;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.75rem;
+}
+/* line 46, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+header #logo a {
+  color: #333233;
+  text-decoration: none;
+}
+/* line 49, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+header #logo a:hover {
+  color: #50A7C7;
+}
+/* line 54, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+header nav {
+  float: right;
+}
+/* line 56, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+header nav a {
+  margin-left: 1.5rem;
+  line-height: 2;
+  color: #9B9B9B;
+  text-decoration: none;
+}
+/* line 61, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/application.scss */
+header nav a:hover {
+  color: #50A7C7;
+}
+
+/* line 1, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#intro {
+  margin: 2.75rem 0 1.75rem 0;
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 1;
+}
+/* line 6, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#intro span {
+  font-size: 1.25rem;
+  color: #9B9B9B;
+}
+
+/* line 12, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post {
+  background: #F8F9FA;
+  width: 30%;
+  float: left;
+  margin: 1rem 1.5%;
+  border: 1px solid #E4E4E4;
+  border-radius: 0.3rem;
+}
+/* line 19, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_image {
+  height: 200px;
+  overflow: hidden;
+}
+/* line 22, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_image img {
+  width: 100%;
+  border-radius: .3rem .3rem 0 0;
+}
+/* line 28, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content h2 {
+  margin: 0;
+  font-weight: 100;
+  padding: 1rem 5%;
+  border-bottom: 1px solid #E4E4E4;
+  font-size: 1.25rem;
+}
+/* line 34, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content h2 a {
+  text-decoration: none;
+  color: #333233;
+}
+/* line 37, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content h2 a:hover {
+  color: #50A7C7;
+}
+/* line 42, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data {
+  padding: .75rem 5%;
+  color: #969696;
+}
+/* line 45, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .username, #posts .post .post_content .data .buttons {
+  margin: 0;
+  font-size: .8rem;
+}
+/* line 49, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .username {
+  float: left;
+}
+/* line 51, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .username a {
+  text-decoration: none;
+  color: #333233;
+}
+/* line 54, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .username a:hover {
+  color: #50A7C7;
+}
+/* line 59, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .buttons {
+  float: right;
+}
+/* line 61, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/home.css.scss */
+#posts .post .post_content .data .buttons span {
+  margin-left: .5rem;
+}
+
+/* line 1, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show {
+  padding-top: 2rem;
+}
+/* line 3, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show .post_image_description {
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+}
+/* line 8, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show .post_data {
+  width: 15%;
+  float: left;
+}
+/* line 11, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show .post_data .button {
+  width: 100%;
+  display: inline-block;
+  padding: .75rem 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #969696;
+}
+/* line 19, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show .post_data .button:hover {
+  color: #50A7C7;
+  border: 1px solid #50A7C7;
+}
+/* line 24, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show .post_data .data {
+  width: 100%;
+  display: block;
+  padding: .75rem 0;
+  border-bottom: 1px solid #E9E9E9;
+  text-decoration: none;
+  color: #969696;
+  margin: 0;
+}
+/* line 34, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post {
+  width: 25%;
+  margin-left: 5%;
+  margin-top: -3.2rem;
+  float: left;
+}
+/* line 39, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post h3 {
+  font-size: 1rem;
+}
+/* line 42, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post {
+  background: #F8F9FA;
+  border: 1px solid #E4E4E4;
+  border-radius: 0.3rem;
+}
+/* line 46, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_image {
+  height: 200px;
+  overflow: hidden;
+}
+/* line 49, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_image img {
+  width: 100%;
+  border-radius: .3rem .3rem 0 0;
+}
+/* line 55, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content h2 {
+  margin: 0;
+  font-weight: 100;
+  padding: 1rem 5%;
+  border-bottom: 1px solid #E4E4E4;
+  font-size: 1.25rem;
+}
+/* line 61, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content h2 a {
+  text-decoration: none;
+  color: #333233;
+}
+/* line 64, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content h2 a:hover {
+  color: #50A7C7;
+}
+/* line 69, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data {
+  padding: .75rem 5%;
+  color: #969696;
+}
+/* line 72, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .username, #post_show #random_post .post .post_content .data .buttons {
+  margin: 0;
+  font-size: .8rem;
+}
+/* line 76, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .username {
+  float: left;
+}
+/* line 78, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .username a {
+  text-decoration: none;
+  color: #969696;
+}
+/* line 81, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .username a:hover {
+  color: #50A7C7;
+}
+/* line 86, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .buttons {
+  float: right;
+}
+/* line 88, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show #random_post .post .post_content .data .buttons span {
+  margin-left: .5rem;
+}
+/* line 96, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show h1 {
+  margin: 0;
+  color: #333233;
+}
+/* line 100, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show img {
+  width: 100%;
+  border-radius: .3rem;
+}
+/* line 104, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show .username {
+  color: #969696;
+  margin: 0 0 1.5rem 0;
+}
+/* line 108, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#post_show .description {
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #969696;
+}
+
+/* line 116, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#comments {
+  padding-bottom: 4rem;
+  width: 50%;
+}
+/* line 119, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#comments .comment_count {
+  border-bottom: 1px solid #E9E9E9;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+}
+/* line 124, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#comments .comment {
+  padding: 2rem 0;
+  border-bottom: 1px solid #E9E9E9;
+  padding-left: 5%;
+}
+/* line 128, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#comments .comment .username {
+  font-size: 1.3rem;
+  color: #333233;
+  margin: 0 0 .5rem 0;
+}
+/* line 133, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#comments .comment .content {
+  margin: 0;
+  color: #969696;
+}
+/* line 138, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#comments .comment_content {
+  margin-top: 2.5rem;
+}
+/* line 140, /Users/drohanluke/Desktop/projects/wobbble/wobbble/app/assets/stylesheets/posts.css.scss */
+#comments .comment_content textarea {
+  width: 100%;
+  margin: 1rem 0;
+  min-height: 150px;
+  border: 1px solid #E4E4E4;
+  background: #F8F9FA;
+  border-radius: 0.3rem;
+}
