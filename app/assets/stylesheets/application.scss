@@ -7,7 +7,7 @@
     top: 0;
     width: 100%;
     z-index: 999;
-    background: rgba(135, 216, 211, 0.85);
+    background: rgba(135, 216, 211, 0.75);
     .alert, .notice {
         padding: 2.5rem 0;
         text-align: center;
@@ -55,13 +55,14 @@ h1, h2, h3, h4, h5, h6 {
 header {
 	width: 100%;
 	padding: 2rem 0;
+	background-color: #444444;
 	border-bottom: 1px solid #E4E4E4;
 	#logo {
 		float: left;
 		font-family: 'Indie Flower', cursive;
 		font-size: 1.75rem;
 		a {
-			color: #333233;
+			color: white;
 			text-decoration: none;
 			&:hover {
 				color: #50A7C7;
