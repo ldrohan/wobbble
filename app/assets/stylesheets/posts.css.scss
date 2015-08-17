@@ -75,6 +75,13 @@
 					}
 					.username {
 						float: left;
+						a {
+							text-decoration: none;
+							color: #969696;
+							&:hover {
+								color: #50A7C7;
+							}
+						}
 					}
 					.buttons {
 						float: right;

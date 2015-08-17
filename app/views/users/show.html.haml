@@ -1,5 +1,6 @@
  
-%h1 See What Inspires #{@user.name}
+%h1 This is What Inspires #{@user.name}
+%h2 #{@user.name} has #{@user.posts.count} posts
 
 #posts
 	- @posts.each do |post|
