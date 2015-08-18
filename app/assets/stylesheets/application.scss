@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .wrapper {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -78,9 +78,15 @@ header {
 	}
 	nav {
 		float: right;
+		img {
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			margin-bottom: -0.6em;
+		}
 		a {
 			margin-left: 1.5rem;
-			line-height: 2;
+			line-height: 2.5;
 			color: #9B9B9B;
 			text-decoration: none;
 			&:hover {
