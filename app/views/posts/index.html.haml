@@ -23,7 +23,7 @@
 					%h2= link_to post.title, post
 					.data.clearfix
 						%p.username
-							Shared by
+							= link_to (image_tag post.user.avatar.url(:thumb)), profile_path(post.user.id)
 							= link_to post.user.name, profile_path(post.user.id)
 						%p.buttons
 							%span
