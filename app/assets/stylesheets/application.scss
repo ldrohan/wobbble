@@ -2,6 +2,11 @@
  *= require_self
  */
 
+
+ .forms {
+ 	text-align: center;
+ }
+
 #notice_wrapper {
     position: absolute;
     top: 0;
@@ -58,7 +63,7 @@ header {
 	width: 100%;
 	padding: 2rem 0;
 	background-color: #444444;
-	border-bottom: 1px solid #E4E4E4;
+	border-bottom: 1px solid black;
 	#logo {
 		float: left;
 		font-family: 'Indie Flower', cursive;
@@ -88,3 +93,4 @@ header {
 @import "font-awesome";
 @import 'home.css.scss';
 @import 'posts.css.scss';
+@import 'profiles.css.scss'

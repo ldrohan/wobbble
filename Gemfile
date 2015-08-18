@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'pry'
+
 gem 'font-awesome-sass'
 
 gem 'acts_as_votable', '~> 0.10.0'
